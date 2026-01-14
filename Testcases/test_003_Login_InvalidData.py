@@ -4,7 +4,7 @@ def test_InvalidLogin():
     
     #driver = startBrowser()
     driver=Chrome()
-    driver.get("https://facebook.com/login")
+    driver.get("https://www.facebook.com/login")
     
     driver.find_element('xpath',"//input[@name='email']").send_keys("1hello")
     driver.find_element('xpath',"//input[@name='pass']").send_keys("4567")
